@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+  width: 300px;
+  height: 450px;
+  background: #f1f2fb;
+  overflow: hidden;
+}
+.header-wrap {
+  text-align: center;
+  margin: 1.5rem 0 1.5rem 0;
+  color: #56576a;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.header-wrap img {
+  width: 3rem;
+}
+
+.choose-wrap {
+  width: 85%;
+  position: absolute;
+  bottom: 1rem;
+}
+.btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-wrap div {
+  cursor: pointer;
+  text-align: center;
+  line-height: 3.5rem;
+  background: #4858ff;
+  color: white;
+  border-radius: 0.7rem;
+  width: 4.5rem;
+  height: 3.5rem;
+  transition: all 0.4s;
+  box-shadow: 3px 3px 8px #c9d0e2;
+}
+
+.btn-wrap div.disabled {
+  transition: 0s;
+  pointer-events: none;
+  background: #f5f5f5 !important;
+  color: #cbcbcb !important;
+  border: 1px solid #cbcbcb !important;
+}
+
+.btn-wrap div:hover {
+  box-shadow: 3.5px 3.5px 2.5px #c9d0e2;
+  background: #4252f4;
+}
+.btn-wrap div:nth-child(2n) {
+  color: #69697a;
+  background: white;
+}
+.btn-wrap div:nth-child(2n):hover {
+  background: rgb(249, 249, 249);
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-wrap .water-wrap {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.content-wrap .target-wrap {
+  /* background: blue; */
+  color: #4450f1;
+}
+
+.content-wrap .water-wrap .add-btn {
+  position: absolute;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.8rem;
+  background: #fbfbff;
+}
+
+.content-wrap .water-wrap .add-btn .add-logo {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid rgb(250, 250, 250);
+  background: #ffffff;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.content-wrap .water-wrap .add-btn .add-logo:hover {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.content-wrap .water-wrap .add-btn .add-logo,
+.content-wrap .water-wrap .add-btn .add-logo div::after,
+.content-wrap .water-wrap .add-btn .add-logo div::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-wrap .water-wrap .add-btn .add-logo div::before {
+  width: 1rem;
+  height: 0.2rem;
+  background: #4451f2;
+}
+
+.content-wrap .water-wrap .add-btn .add-logo div::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+  width: 1rem;
+  height: 0.2rem;
+  background: #4451f2;
+}
+
+.content-wrap .water-wrap .wave {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  background-color: #acc5ff;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.content-wrap .water-wrap .wave .wave1,
+.content-wrap .water-wrap .wave .wave2 {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  margin-left: -200px;
+  top: -130%;
+  left: 50%;
+  background-color: rgba(241, 242, 251, 0.3);
+  border-radius: 44%;
+  /* transform: translate(-50%, -70%) rotate(0); */
+  transform: rotate(0);
+  transition: top 1.5s;
+  animation: rotate 6s linear infinite;
+  z-index: 10;
+}
+
+.content-wrap .water-wrap .wave .wave2 {
+  border-radius: 47%;
+  background-color: rgba(241, 242, 251, 0.8);
+  top: -134%;
+  /* transform: translate(-50%, -70%) rotate(0); */
+  transform: rotate(0);
+  animation: rotate 18s linear -6s infinite;
+  z-index: 20;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
