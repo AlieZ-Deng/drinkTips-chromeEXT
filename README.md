@@ -27,13 +27,11 @@
 
 ## 展示：
 
-<img src="/Users/meizu/mycode/img-folder/chromeExt/a.jpg" style="zoom:30%;" />
+<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/a.jpg" style="zoom:30%;" />
 
+<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/b.jpg" style="zoom:30%;" />
 
+<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/c.jpg" style="zoom:50%;" />
 
-<img src="/Users/meizu/mycode/img-folder/chromeExt/b.jpg" style="zoom:30%;" />
-
-<img src="/Users/meizu/mycode/img-folder/chromeExt/c.jpg" style="zoom:50%;" />
-
-<img src="/Users/meizu/mycode/img-folder/chromeExt/d.jpg" style="zoom:50%;" />
+<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/d.jpg" style="zoom:50%;" />
 
