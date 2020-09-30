@@ -10,9 +10,12 @@
 于是，我也想模仿一个要求简单：
 
 - 三个定时提醒模式：15min，30min，45min
+
 - 类似于大部分喝水App的达标打卡操作
+
 - 工作中经常与UI 设计对接的，惯坏了我这双眼睛，最后界面必须好看
-- 
+
+  
 
 **遂：通过各种度娘，各种源码，各种c、v**
 
@@ -24,13 +27,13 @@
 
 ## 展示：
 
-![https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/a.jpg]()
+![](https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/a.jpg)
 
-![https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/b.jpg]()
+![](https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/b.jpg)
 
-![https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/c.jpg]()
+![](https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/c.jpg)
 
-![https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/d.jpg]()
+![](https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/d.jpg)
 
 
 
