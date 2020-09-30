@@ -27,11 +27,11 @@
 
 ## 展示：
 
-<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/a.jpg" style="zoom:30%;" />
+<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/a.jpg" style="zoom:10%;" />
 
-<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/b.jpg" style="zoom:30%;" />
+<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/b.jpg" style="zoom:10%;" />
 
-<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/c.jpg" style="zoom:50%;" />
+<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/c.jpg" style="zoom:30%;" />
 
-<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/d.jpg" style="zoom:50%;" />
+<img src="https://github.com/AlieZ-Deng/img-folder/blob/master/chromeExt/d.jpg" style="zoom:30%;" />
 
